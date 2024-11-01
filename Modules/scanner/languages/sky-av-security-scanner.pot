@@ -1,0 +1,3284 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Look-"
+"See Security Scanner\n"
+"POT-Creation-Date: "
+"2017-09-22 08:08-0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: "
+"Blobfolio, LLC "
+"<hello@skytells.com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"2.0.1\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+"X-Poedit-"
+"SearchPathExcluded-0: ."
+"sass-cache\n"
+"X-Poedit-"
+"SearchPathExcluded-1: "
+"css\n"
+"X-Poedit-"
+"SearchPathExcluded-2: "
+"img\n"
+"X-Poedit-"
+"SearchPathExcluded-3: "
+"js\n"
+"X-Poedit-"
+"SearchPathExcluded-4: "
+"node_modules\n"
+"X-Poedit-"
+"SearchPathExcluded-5: "
+"scss\n"
+"X-Poedit-"
+"SearchPathExcluded-6: "
+"skel\n"
+"X-Poedit-"
+"SearchPathExcluded-7: "
+"lib/vendor\n"
+
+#: admin/analysis.php:25
+#: admin/exploits-pro.php:76
+#: admin/exploits.php:177
+#: lib/skytells/wp/skyav/cli.php:151
+#: lib/skytells/wp/skyav/cli.php:289
+msgid "Plugin"
+msgstr ""
+
+#: admin/analysis.php:33
+#: admin/exploits-pro.php:122
+#: admin/exploits.php:234
+#: lib/skytells/wp/skyav/cli.php:159
+msgid "Theme"
+msgstr ""
+
+#: admin/analysis.php:42
+#: admin/analysis.php:150
+#: lib/skytells/wp/skyav/cli.php:69
+msgid ""
+"Administrator Accounts"
+msgstr ""
+
+#: admin/analysis.php:46
+#: lib/skytells/wp/skyav/cli.php:71
+#, php-format
+msgid ""
+"Generic usernames like "
+"\"admin\" or "
+"\"administrator\" are "
+"present and should be "
+"renamed. Plugins like %s "
+"(pro) and %s can help "
+"with this."
+msgstr ""
+
+#: admin/analysis.php:53
+#: admin/analysis.php:157
+#: lib/skytells/wp/skyav/cli.php:79
+msgid ""
+"Authentication Salts & "
+"Keys"
+msgstr ""
+
+#: admin/analysis.php:57
+#: lib/skytells/wp/skyav/cli.php:81
+#, php-format
+msgid ""
+"Your site contains weak "
+"and/or missing "
+"authentication salts. "
+"Visit %s and copy the "
+"output into %s."
+msgstr ""
+
+#: admin/analysis.php:58
+#: admin/analysis.php:80
+#: admin/analysis.php:81
+#: admin/analysis.php:102
+#: admin/analysis.php:113
+#: lib/skytells/wp/skyav/admin.php:54
+#: lib/skytells/wp/skyav/admin.php:131
+msgid "here"
+msgstr ""
+
+#: admin/analysis.php:64
+#: admin/analysis.php:169
+#: lib/skytells/wp/skyav/cli.php:89
+msgid "Database Prefix"
+msgstr ""
+
+#: admin/analysis.php:68
+#: lib/skytells/wp/skyav/cli.php:91
+#, php-format
+msgid ""
+"Your site is currently "
+"using the default table "
+"prefix, %s. It is not "
+"completely "
+"straightforward to "
+"retroactively fix this, "
+"however %s can point you "
+"in the right direction."
+msgstr ""
+
+#: admin/analysis.php:70
+msgid "this tutorial"
+msgstr ""
+
+#: admin/analysis.php:75
+#: admin/analysis.php:175
+#: lib/skytells/wp/skyav/cli.php:99
+msgid "Directory Listing"
+msgstr ""
+
+#: admin/analysis.php:79
+#: lib/skytells/wp/skyav/cli.php:101
+#, php-format
+msgid ""
+"Your site currently "
+"lists directory "
+"contents. For example, "
+"click %s. For "
+"information on how to "
+"fix this, visit %s."
+msgstr ""
+
+#: admin/analysis.php:86
+#: admin/analysis.php:183
+#: lib/skytells/wp/skyav/cli.php:109
+msgid "File Editor"
+msgstr ""
+
+#: admin/analysis.php:90
+#: lib/skytells/wp/skyav/cli.php:111
+#, php-format
+msgid ""
+"The editor is currently "
+"enabled on your site. To "
+"disable it, add the "
+"following code to %s:"
+msgstr ""
+
+#: admin/analysis.php:97
+#: admin/analysis.php:187
+#: lib/skytells/wp/skyav/cli.php:119
+msgid "File Scans"
+msgstr ""
+
+#: admin/analysis.php:101
+#: lib/skytells/wp/skyav/cli.php:121
+#, php-format
+msgid ""
+"You have not completed a "
+"file scan recently. "
+"Click %s to do that now."
+msgstr ""
+
+#: admin/analysis.php:107
+#: admin/analysis.php:190
+#: lib/skytells/wp/skyav/cli.php:128
+msgid "SSL"
+msgstr ""
+
+#: admin/analysis.php:110
+#: lib/skytells/wp/skyav/cli.php:129
+msgid ""
+"It appears that your "
+"site might not be fully "
+"protected with SSL. Look-"
+"See is not able to "
+"determine this with 100% "
+"accuracy, so if this "
+"assessment is wrong, "
+"please ignore it."
+msgstr ""
+
+#: admin/analysis.php:112
+#: lib/skytells/wp/skyav/cli.php:131
+#, php-format
+msgid ""
+"Otherwise, you're in for "
+"a treat! For a rundown "
+"on how to get an "
+"existing WordPress web "
+"site up and running over "
+"SSL, click %s."
+msgstr ""
+
+#: admin/analysis.php:118
+#: admin/analysis.php:195
+#: lib/skytells/wp/skyav/cli.php:138
+msgid "SVG"
+msgstr ""
+
+#: admin/analysis.php:122
+#: lib/skytells/wp/skyav/cli.php:140
+#, php-format
+msgid ""
+"SVG support has been "
+"manually enabled for "
+"your site, leaving you "
+"at extreme risk. In "
+"order to protect "
+"yourself, please install "
+"%s."
+msgstr ""
+
+#: admin/analysis.php:128
+#: admin/analysis.php:202
+#: lib/skytells/wp/skyav/cli.php:164
+#: lib/skytells/wp/skyav/cli.php:168
+msgid ""
+"Inactive Plugins & Themes"
+msgstr ""
+
+#: admin/analysis.php:131
+#: lib/skytells/wp/skyav/cli.php:165
+msgid ""
+"The following inactive "
+"content is still "
+"publicly accessible on "
+"your server. You should "
+"fully delete any content "
+"you are not using."
+msgstr ""
+
+#: admin/analysis.php:136
+#: admin/analysis.php:205
+#: lib/skytells/wp/skyav/cli.php:173
+msgid ""
+"Updates & Security "
+"Patches"
+msgstr ""
+
+#: admin/analysis.php:140
+#: lib/skytells/wp/skyav/cli.php:175
+#, php-format
+msgid ""
+"Your copy of WordPress "
+"is not fully up-to-date. "
+"Please head on over to "
+"%s to apply all "
+"available updates."
+msgstr ""
+
+#: admin/analysis.php:141
+msgid "the update page"
+msgstr ""
+
+#: admin/analysis.php:152
+#, php-format
+msgid ""
+"WordPress' popularity "
+"makes it a strong target "
+"for automated, %s login "
+"attacks. The vast "
+"majority of these "
+"attacks are waged by "
+"rather stupid robots "
+"that assume the "
+"existence of default "
+"usernames like \"admin\" "
+"or \"administrator\"."
+msgstr ""
+
+#: admin/analysis.php:153
+msgid "brute-force"
+msgstr ""
+
+#: admin/analysis.php:155
+msgid ""
+"By not having logins "
+"with these names, the "
+"vast majority of login "
+"attacks are moot."
+msgstr ""
+
+#: admin/analysis.php:159
+#, php-format
+msgid ""
+"WordPress uses site-"
+"defined %s to improve "
+"session security. It is "
+"important that each salt "
+"is defined in %s, and "
+"that that definition is "
+"strong."
+msgstr ""
+
+#: admin/analysis.php:160
+msgid "salts"
+msgstr ""
+
+#: admin/analysis.php:164
+#, php-format
+msgid ""
+"Don't try to think of "
+"random values on your "
+"own. Just visit %s and "
+"copy-and-paste the "
+"results into your %s."
+msgstr ""
+
+#: admin/analysis.php:171
+#, php-format
+msgid ""
+"%s attacks often require "
+"that the attacker "
+"already know the names "
+"of tables in the "
+"database. To help combat "
+"this, WordPress allows "
+"sites to prepend a "
+"custom prefix to each "
+"table name."
+msgstr ""
+
+#: admin/analysis.php:172
+#: admin/exploits.php:48
+#: admin/exploits.php:114
+msgid "SQL Injection"
+msgstr ""
+
+#: admin/analysis.php:177
+#, php-format
+msgid ""
+"Depending on the server "
+"configuration, if "
+"someone visits a "
+"directory that does not "
+"include a file named %s "
+"or %s, etc., in a web "
+"browser, the contents of "
+"that directory will be "
+"listed."
+msgstr ""
+
+#: admin/analysis.php:181
+msgid ""
+"This can make it much "
+"easier for attackers to "
+"gather information about "
+"the files on your server "
+"and better target their "
+"attacks."
+msgstr ""
+
+#: admin/analysis.php:184
+msgid ""
+"WordPress ships with a "
+"tool that allows site "
+"administrators to "
+"directly edit the code "
+"of themes, plugins, and "
+"other files on the "
+"server."
+msgstr ""
+
+#: admin/analysis.php:185
+msgid ""
+"If this tool is enabled "
+"and someone manages to "
+"break into WordPress, it "
+"will give them broader "
+"system access than they "
+"might otherwise have."
+msgstr ""
+
+#: admin/analysis.php:188
+msgid ""
+"It is important that you "
+"run frequent file scans "
+"of your site to ensure "
+"that everything is as it "
+"should be. But hey, "
+"that's what Skytells-AV is "
+"for!"
+msgstr ""
+
+#: admin/analysis.php:191
+msgid ""
+"Without an SSL "
+"certificate, any "
+"communication between a "
+"visitor and your site "
+"can be intercepted by "
+"anybody else on the "
+"networks."
+msgstr ""
+
+#: admin/analysis.php:192
+msgid ""
+"This means things like "
+"login and other personal "
+"information can be "
+"stolen, but the "
+"corruption can work in "
+"the other direction too. "
+"Many cheap hotel, cafe, "
+"and airport networks, "
+"for example, will inject "
+"advertising into "
+"unencrypted pages, and "
+"sinister networks can "
+"even inject malware."
+msgstr ""
+
+#: admin/analysis.php:193
+msgid ""
+"Thus it is important "
+"that EVERY communication "
+"is encrypted, not just "
+"administrative areas."
+msgstr ""
+
+#: admin/analysis.php:197
+#, php-format
+msgid ""
+"Despite the massive "
+"popularity of the %s "
+"image format "
+"(particularly with "
+"modern web designers), "
+"WordPress does not allow "
+"them to be uploaded by "
+"default. As it turns "
+"out, SVG is insanely "
+"susceptible to malicious "
+"content and %s "
+"impossible to sanitize."
+msgstr ""
+
+#: admin/analysis.php:199
+msgid "almost"
+msgstr ""
+
+#: admin/analysis.php:203
+msgid ""
+"Any code on your server "
+"has the potential to "
+"contain exploitable "
+"vulnerabilities, even if "
+"it is part of a theme or "
+"plugin that is not "
+"currently \"active\"."
+msgstr ""
+
+#: admin/analysis.php:207
+#, php-format
+msgid ""
+"WordPress and its "
+"plugins and themes are "
+"%s. This is beneficial "
+"in that bugs and "
+"security issues can be "
+"identified and fixed "
+"more quickly, however in "
+"order for users to "
+"benefit, updates must be "
+"applied."
+msgstr ""
+
+#: admin/analysis.php:208
+msgid "open-source"
+msgstr ""
+
+#: admin/analysis.php:221
+#: lib/skytells/wp/skyav/admin.php:490
+#: lib/skytells/wp/skyav/admin.php:491
+msgid ""
+"Configuration Analysis"
+msgstr ""
+
+#: admin/analysis.php:229
+msgid "Issues"
+msgstr ""
+
+#: admin/analysis.php:234
+#: admin/exploits-pro.php:75
+#: admin/exploits-pro.php:121
+#: admin/exploits.php:176
+#: admin/exploits.php:233
+#: admin/scan.php:554
+#: admin/scan.php:731
+#: admin/scan.php:873
+#: lib/skytells/wp/skyav/cli/scan.php:329
+#: lib/skytells/wp/skyav/cli/scan.php:434
+#: lib/skytells/wp/skyav/cli/scan.php:482
+#: lib/skytells/wp/skyav/scan.php:1491
+msgid "Status"
+msgstr ""
+
+#: admin/analysis.php:235
+msgid "Configuration"
+msgstr ""
+
+#: admin/analysis.php:268
+msgid ""
+"WordPress ships with a "
+"lot of inherent "
+"vulnerabilities. Some of "
+"these issues are related "
+"to advanced "
+"functionality that many "
+"users won't end up "
+"using, while others are "
+"felt to be outside the "
+"scope of what the main "
+"software should handle."
+msgstr ""
+
+#: admin/analysis.php:269
+msgid ""
+"Regardless, most of "
+"these threats are "
+"completely unnecessary."
+msgstr ""
+
+#: admin/analysis.php:271
+#, php-format
+msgid ""
+"%s is a simple, "
+"educational security "
+"plugin designed to "
+"harden WordPress "
+"security and help "
+"mitigate active threats."
+msgstr ""
+
+#: admin/analysis.php:274
+msgid ""
+"Skytells-AV will help you "
+"identify possible "
+"security issues, but is "
+"mostly a post-mortem "
+"tool. To keep attackers "
+"from gaining access to "
+"your site in the first "
+"place, Apocalypse Meow "
+"is a must."
+msgstr ""
+
+#: admin/exploits-pro.php:57
+#: admin/exploits.php:158
+#: lib/skytells/wp/skyav/admin.php:518
+#: lib/skytells/wp/skyav/admin.php:519
+msgid ""
+"Plugin & Theme "
+"Vulnerabilities"
+msgstr ""
+
+#: admin/exploits-pro.php:60
+msgid ""
+"Vulnerability reference "
+"links are pulled for the "
+"plugins and themes "
+"installed on your site. "
+"Hold tight!"
+msgstr ""
+
+#: admin/exploits-pro.php:70
+#: admin/exploits.php:171
+msgid "Plugins"
+msgstr ""
+
+#: admin/exploits-pro.php:116
+#: admin/exploits.php:228
+msgid "Themes"
+msgstr ""
+
+#: admin/exploits-pro.php:165
+#: admin/exploits-pro.php:171
+#: admin/exploits.php:289
+#: admin/exploits.php:295
+msgid ""
+"WPScan Vulnerability "
+"Database"
+msgstr ""
+
+#: admin/exploits-pro.php:170
+#: admin/exploits.php:294
+#, php-format
+msgid ""
+"The %s maintains a "
+"comprehensive history of "
+"exploitable coding "
+"errors discovered in "
+"WordPress themes and "
+"plugins."
+msgstr ""
+
+#: admin/exploits-pro.php:173
+#: admin/exploits.php:297
+msgid ""
+"In many cases, the "
+"threats are just that — "
+"historical. By keeping "
+"your software up-to-"
+"date, you are immune! "
+"Unless the history "
+"reveals a pattern of "
+"carelessness, you can "
+"probably ignore it."
+msgstr ""
+
+#: admin/exploits-pro.php:174
+#: admin/exploits.php:298
+msgid ""
+"But if a plugin or theme "
+"has unfixed issues, it "
+"poses an active threat "
+"to your site. In such "
+"cases it is recommended "
+"you find an alternative "
+"and delete the original "
+"from your server."
+msgstr ""
+
+#: admin/exploits.php:37
+msgid ""
+"Authentication Bypass"
+msgstr ""
+
+#: admin/exploits.php:38
+msgid "Security Bypass"
+msgstr ""
+
+#: admin/exploits.php:39
+#: admin/exploits.php:67
+msgid ""
+"Cross-Site Request "
+"Forgery"
+msgstr ""
+
+#: admin/exploits.php:40
+#: admin/exploits.php:73
+msgid "Denial of Service"
+msgstr ""
+
+#: admin/exploits.php:41
+msgid ""
+"Full Path Disclosure"
+msgstr ""
+
+#: admin/exploits.php:42
+#: admin/exploits.php:84
+msgid ""
+"Local File Inclusion"
+msgstr ""
+
+#: admin/exploits.php:43
+msgid "Multiple"
+msgstr ""
+
+#: admin/exploits.php:44
+#: admin/exploits.php:93
+msgid ""
+"Privilege Escalation"
+msgstr ""
+
+#: admin/exploits.php:45
+#: admin/exploits.php:99
+msgid ""
+"Remote Code Execution"
+msgstr ""
+
+#: admin/exploits.php:46
+msgid "Redirection"
+msgstr ""
+
+#: admin/exploits.php:47
+#: admin/exploits.php:108
+msgid ""
+"Remote File Inclusion"
+msgstr ""
+
+#: admin/exploits.php:49
+msgid ""
+"Server-Side Request "
+"Forgery"
+msgstr ""
+
+#: admin/exploits.php:50
+msgid "Other"
+msgstr ""
+
+#: admin/exploits.php:51
+msgid ""
+"Arbitrary File Upload"
+msgstr ""
+
+#: admin/exploits.php:52
+#: admin/exploits.php:130
+msgid ""
+"Cross-Site Scripting"
+msgstr ""
+
+#: admin/exploits.php:53
+msgid ""
+"XML External Entity "
+"Processing"
+msgstr ""
+
+#: admin/exploits.php:59
+msgid ""
+"Many applications have "
+"functionality that is "
+"restricted, available "
+"only to select users, "
+"etc. But when an "
+"application contains an "
+"Authentication Bypass "
+"vulnerability, it "
+"becomes possible for "
+"attackers to access this "
+"code without logging in."
+msgstr ""
+
+#: admin/exploits.php:62
+msgid ""
+"This type of "
+"vulnerability indicates "
+"that some functionality "
+"is not properly locked "
+"off; attackers are able "
+"to bypass its security "
+"measures and/or intended "
+"functionality and do "
+"with it what they will."
+msgstr ""
+
+#: admin/exploits.php:66
+#, php-format
+msgid ""
+"A %s vulnerability can "
+"be used to trick "
+"authenticated site users "
+"into triggering actions "
+"crafted by the attacker. "
+"Since those actions are "
+"executed by a valid "
+"user, the site is none-"
+"the-wiser."
+msgstr ""
+
+#: admin/exploits.php:72
+#, php-format
+msgid ""
+"A %s vulnerability can "
+"be leveraged by "
+"attackers to make a web "
+"site unstable or knock "
+"it offline entirely. "
+"This type of attack is "
+"commonly %s, run from "
+"multiple sources "
+"simultaneously to "
+"maximize impact."
+msgstr ""
+
+#: admin/exploits.php:74
+msgid "distributed"
+msgstr ""
+
+#: admin/exploits.php:78
+msgid ""
+"The underlying file "
+"structure of a web "
+"server may not "
+"necessarily mirror the "
+"public-facing structure "
+"of the web site. This "
+"can present a challenge "
+"to attackers hoping to "
+"plant malicious files on "
+"a server."
+msgstr ""
+
+#: admin/exploits.php:79
+msgid ""
+"However when there is a "
+"Full Path Disclosure "
+"vulnerability, the "
+"internal file paths are "
+"printed publicly, "
+"showing attackers "
+"exactly where to go."
+msgstr ""
+
+#: admin/exploits.php:83
+#, php-format
+msgid ""
+"A %s vulnerability "
+"allows attackers to load "
+"arbitrary files stored "
+"on the server, usually "
+"small scripts containing "
+"malicious payloads like "
+"backdoors, etc."
+msgstr ""
+
+#: admin/exploits.php:88
+msgid ""
+"There are multiple "
+"vulnerabilities in this "
+"release. Please refer to "
+"the external resources, "
+"if any, for more "
+"information."
+msgstr ""
+
+#: admin/exploits.php:92
+#, php-format
+msgid ""
+"A %s vulnerability can "
+"be used by an attacker "
+"to gain access to code "
+"that would otherwise be "
+"restricted to them."
+msgstr ""
+
+#: admin/exploits.php:98
+#, php-format
+msgid ""
+"%s is a nasty "
+"vulnerability that "
+"allows attackers to run "
+"arbitrary, externally-"
+"dictated code on your "
+"server. Yikes!"
+msgstr ""
+
+#: admin/exploits.php:103
+msgid ""
+"A redirection "
+"vulnerability typically "
+"means that an attacker "
+"is able to bypass the "
+"normal safeguards and "
+"redirect users to an "
+"arbitrary location, "
+"usually a booby-trapped "
+"page that will spawn ads "
+"or spread malware."
+msgstr ""
+
+#: admin/exploits.php:107
+#, php-format
+msgid ""
+"A %s vulnerability "
+"allows attackers to load "
+"arbitrary, external "
+"files into your "
+"application, meaning "
+"they can execute just "
+"about any code they want "
+"to. Yikes!"
+msgstr ""
+
+#: admin/exploits.php:113
+#, php-format
+msgid ""
+"A %s vulnerability gives "
+"attackers access to make "
+"changes to the database, "
+"leading to defaced "
+"content, SPAM posts, "
+"etc. In some cases, SQL "
+"Injection can allow "
+"attackers to create user "
+"accounts for themselves, "
+"giving them access to "
+"the entirety of your "
+"site."
+msgstr ""
+
+#: admin/exploits.php:118
+msgid ""
+"A Server-Side Request "
+"Forgery vulnerability "
+"allows an attacker to "
+"send malicious requests "
+"*from* your server, "
+"potentially gaining "
+"access to local "
+"resources that would "
+"otherwise be restricted."
+msgstr ""
+
+#: admin/exploits.php:121
+msgid ""
+"The WPScan Vulnerability "
+"Database does not have a "
+"proper classification "
+"for this particular "
+"entry, hence \"other\"."
+msgstr ""
+
+#: admin/exploits.php:124
+msgid ""
+"An Arbitrary File Upload "
+"vulnerability is just "
+"what it sounds like: "
+"attackers can upload "
+"files directly to your "
+"web server. Sometimes "
+"attackers will be "
+"limited to the same "
+"types of files you "
+"yourself can upload "
+"through the WordPress "
+"admin interface, but "
+"other times code is so "
+"improperly handled that "
+"they can upload "
+"*anything*."
+msgstr ""
+
+#: admin/exploits.php:125
+msgid ""
+"Once malicious files are "
+"on the server, they can "
+"be used to run arbitrary "
+"code or transmit malware "
+"to site visitors."
+msgstr ""
+
+#: admin/exploits.php:129
+#, php-format
+msgid ""
+"A %s vulnerability "
+"allows attackers to "
+"inject malicious scripts "
+"into a page, which could "
+"be used for anything "
+"from stealing sensitive "
+"information to executing "
+"privileged actions as "
+"the visitor without "
+"their awareness."
+msgstr ""
+
+#: admin/exploits.php:135
+#, php-format
+msgid ""
+"If an attacker is able "
+"to provide booby-trapped "
+"XML to an application "
+"with a %s vulnerability "
+"— either directly or by "
+"tricking a valid user "
+"into uploading or "
+"opening it — they might "
+"be able to gain "
+"privileged system "
+"access, from which all "
+"kinds of havoc might "
+"ensue."
+msgstr ""
+
+#: admin/exploits.php:136
+msgid ""
+"External Entity "
+"Processing"
+msgstr ""
+
+#: admin/exploits.php:138
+msgid ""
+"SVG files and office "
+"documents are the most "
+"common vector for this "
+"sort of attack. "
+"WordPress sites which "
+"have been altered to "
+"allow these kinds of "
+"files are at particular "
+"risk."
+msgstr ""
+
+#: admin/exploits.php:161
+msgid ""
+"Vulnerability history is "
+"being pulled for the "
+"plugins and themes "
+"installed on your site. "
+"Hold tight!"
+msgstr ""
+
+#: admin/pro.php:43
+msgid "Premium License"
+msgstr ""
+
+#: admin/pro.php:50
+msgid ""
+"Please ask your system "
+"administrator to enable "
+"the OpenSSL PHP "
+"extension. Without this, "
+"your site will be unable "
+"to decode and validate "
+"the license details "
+"itself. In the meantime, "
+"Skytells-AV Security "
+"Scanner will try to "
+"offload this task to its "
+"own server. This should "
+"get the job done, but "
+"won't be as efficient "
+"and could impact "
+"performance a bit."
+msgstr ""
+
+#: admin/pro.php:56
+msgid ""
+"Your license has been "
+"saved!"
+msgstr ""
+
+#: admin/pro.php:65
+msgid "License Key"
+msgstr ""
+
+#: admin/pro.php:69
+#: admin/scan.php:1034
+msgid "Save"
+msgstr ""
+
+#: admin/pro.php:79
+msgid "The Pro Pitch"
+msgstr ""
+
+#: admin/pro.php:83
+#, php-format
+msgid ""
+"For the cost of an "
+"expensive sandwich, you "
+"can get a Skytells-AV %s! "
+"It's the same great "
+"administrative tool, "
+"just more of it:"
+msgstr ""
+
+#: admin/pro.php:84
+msgid "Premium license"
+msgstr ""
+
+#: admin/pro.php:88
+msgid ""
+"Quick Actions: view "
+"source code, fix "
+"permission/ownership "
+"issues, ignore, or "
+"delete entries with the "
+"push of a button;"
+msgstr ""
+
+#: admin/pro.php:90
+#, php-format
+msgid ""
+"Complete %s integration;"
+msgstr ""
+
+#: admin/pro.php:93
+msgid ""
+"Set-and-Forget scan "
+"scheduling;"
+msgstr ""
+
+#: admin/pro.php:97
+#, php-format
+msgid ""
+"To learn more, visit %s."
+msgstr ""
+
+#: admin/pro.php:105
+msgid "Your License"
+msgstr ""
+
+#: admin/pro.php:110
+msgid "Created"
+msgstr ""
+
+#: admin/pro.php:114
+msgid "Updated"
+msgstr ""
+
+#: admin/pro.php:118
+msgid "Revoked"
+msgstr ""
+
+#: admin/pro.php:122
+#: lib/skytells/wp/skyav/cli.php:221
+#: lib/skytells/wp/skyav/cli.php:287
+msgid "Name"
+msgstr ""
+
+#: admin/pro.php:126
+#: lib/skytells/wp/skyav/cli.php:274
+msgid "Company"
+msgstr ""
+
+#: admin/pro.php:130
+#: lib/skytells/wp/skyav/cli.php:279
+msgid "Email"
+msgstr ""
+
+#: admin/pro.php:134
+#: lib/skytells/wp/skyav/cli.php:294
+msgid "Type"
+msgstr ""
+
+#: admin/pro.php:138
+msgid "Thing"
+msgstr ""
+
+#: admin/pro.php:142
+msgid "Domain(s)"
+msgstr ""
+
+#: admin/pro.php:148
+msgid "Help"
+msgstr ""
+
+#: admin/pro.php:150
+msgid ""
+"Thanks for going Pro!"
+msgstr ""
+
+#: admin/pro.php:153
+#, php-format
+msgid ""
+"If you have any "
+"questions or need help, "
+"visit %s."
+msgstr ""
+
+#: admin/pro.php:164
+#: lib/skytells/wp/skyav/cli.php:281
+msgid "Freeload Edition"
+msgstr ""
+
+#: admin/pro.php:169
+#, php-format
+msgid ""
+"If you can't afford a %s "
+"or do not wish to "
+"purchase one, you can "
+"still enable premium "
+"functionality by "
+"clicking the button "
+"below."
+msgstr ""
+
+#: admin/pro.php:172
+msgid ""
+"If your situation "
+"changes in the future, "
+"you can always switch "
+"the registration to a "
+"real license. :)"
+msgstr ""
+
+#: admin/pro.php:177
+msgid "Enable"
+msgstr ""
+
+#: admin/pro.php:182
+msgid ""
+"The Freeload Edition has "
+"been enabled so you have "
+"access to all premium "
+"features. Hurray for "
+"Code Anarchy!"
+msgstr ""
+
+#: admin/pro.php:184
+#, php-format
+msgid ""
+"If you went ahead and "
+"purchased a %s — thanks! "
+"— just go ahead and "
+"replace the key and hit "
+"save."
+msgstr ""
+
+#: admin/pro.php:205
+#, php-format
+msgid "Impressed with %s?"
+msgstr ""
+
+#: admin/pro.php:206
+#, php-format
+msgid ""
+"You might also enjoy "
+"these other fine and "
+"practical plugins from "
+"%s."
+msgstr ""
+
+#: admin/scan.php:69
+msgid "Sun"
+msgstr ""
+
+#: admin/scan.php:70
+msgid "Mon"
+msgstr ""
+
+#: admin/scan.php:71
+msgid "Tue"
+msgstr ""
+
+#: admin/scan.php:72
+msgid "Wed"
+msgstr ""
+
+#: admin/scan.php:73
+msgid "Thu"
+msgstr ""
+
+#: admin/scan.php:74
+msgid "Fri"
+msgstr ""
+
+#: admin/scan.php:75
+msgid "Sat"
+msgstr ""
+
+#: admin/scan.php:81
+msgid ""
+"Yay! This particular "
+"package had clean, "
+"authoritative source "
+"files available for use "
+"during this scan. No "
+"matter what state your "
+"server was in, file "
+"irregularities were easy "
+"to detect."
+msgstr ""
+
+#: admin/scan.php:82
+msgid ""
+"Note: WordPress does not "
+"maintain a proper "
+"release history for the "
+"themes and plugins it "
+"hosts, so this critical "
+"security feature will "
+"only work if your themes "
+"and plugins are up-to-"
+"date."
+msgstr ""
+
+#: admin/scan.php:86
+#, php-format
+msgid ""
+"You can skip any "
+"arbitrary file or "
+"directory. Paths should "
+"be relative to your "
+"site's base directory, "
+"so for example, to skip "
+"the file %s, enter %s. "
+"To skip the contents of "
+"a directory, use a "
+"wildcard character, like "
+"%s."
+msgstr ""
+
+#: admin/scan.php:92
+#, php-format
+msgid ""
+"You can also use "
+"wildcards to skip "
+"certain types of files. "
+"For example, you could "
+"use %s to avoid scanning "
+"any JPEG files in the "
+"uploads directory, or "
+"just %s to skip any JPEG "
+"files anywhere."
+msgstr ""
+
+#: admin/scan.php:99
+#, php-format
+msgid ""
+"Static cache files "
+"generated by plugins "
+"like %s and %s are "
+"probably not very useful "
+"to include in a scan. By "
+"their nature, they are "
+"short-lived, and will "
+"likely show up as "
+"\"modified\" every time "
+"a scan is performed. And "
+"because they are "
+"generated from dynamic "
+"theme and plugin content "
+"– which is also scanned "
+"– their inclusion is a "
+"bit redundant."
+msgstr ""
+
+#: admin/scan.php:104
+#, php-format
+msgid ""
+"When this option is "
+"enabled, files found in "
+"%s will be skipped."
+msgstr ""
+
+#: admin/scan.php:109
+msgid ""
+"This quick filter will "
+"auto-skip (most) images "
+"in your uploads "
+"directory. Images can be "
+"malicious, so in general "
+"you should include them "
+"in your scans."
+msgstr ""
+
+#: admin/scan.php:111
+msgid ""
+"But images can also be "
+"*big* and might pose "
+"problems for "
+"underpowered servers. "
+"Even on a strong server, "
+"an old site with a lot "
+"of content might end up "
+"taking unacceptably long "
+"to scan."
+msgstr ""
+
+#: admin/scan.php:112
+msgid ""
+"TL;DR if the scans are "
+"timing out or taking too "
+"long to complete, maybe "
+"try this option."
+msgstr ""
+
+#: admin/scan.php:115
+msgid ""
+"This quick filter will "
+"auto-skip (most) audio/"
+"video files in your "
+"uploads directory. Due "
+"to their large size, "
+"these files are not yet "
+"very common transmission "
+"vectors of malicious "
+"code — excepting "
+"pornography — and so are "
+"probably fairly safe to "
+"skip."
+msgstr ""
+
+#: admin/scan.php:117
+msgid ""
+"If your server is "
+"adequately powered and/"
+"or you don't have much "
+"in the way of audio/"
+"video content, leave "
+"this disabled. Otherwise "
+"if your server is having "
+"trouble completing "
+"scans, turn this on."
+msgstr ""
+
+#: admin/scan.php:120
+msgid ""
+"Malicious content is "
+"almost always going to "
+"be embedded in "
+"executable files like "
+"PHP scripts, which are "
+"relatively small."
+msgstr ""
+
+#: admin/scan.php:121
+msgid ""
+"Larger files, like "
+"images and video, are "
+"not likely targets and "
+"require more time and "
+"processing power to "
+"scan. On many low-end "
+"hosting environments, "
+"this can lead to timeout "
+"errors and other "
+"problems."
+msgstr ""
+
+#: admin/scan.php:122
+msgid ""
+"It is recommended "
+"everyone set a sane "
+"limit on the maximum "
+"file size that should be "
+"scanned. For VPS "
+"hosting, a value of 5MB "
+"or 10MB should be "
+"plenty. Shared hosting "
+"might need a lower "
+"limit, like 1MB or 2MB."
+msgstr ""
+
+#: admin/scan.php:123
+msgid ""
+"To disable the cap and "
+"scan everything, set the "
+"value to 0MB."
+msgstr ""
+
+#: admin/scan.php:126
+msgid ""
+"In-depth file scanning "
+"is a resource-intensive "
+"task and so is executed "
+"in workable chunks. This "
+"option specifies the "
+"number of files to "
+"attempt to scan in a "
+"single pass."
+msgstr ""
+
+#: admin/scan.php:127
+msgid ""
+"If you are frequently "
+"receiving timeout errors "
+"when running scans, try "
+"decreasing this number."
+msgstr ""
+
+#: admin/scan.php:130
+msgid ""
+"Thousands of records "
+"might be added to the "
+"database each time a "
+"file scan is performed. "
+"While Skytells-AV has taken "
+"care to store this data "
+"efficiently, it can "
+"still add up over time."
+msgstr ""
+
+#: admin/scan.php:131
+msgid ""
+"Enable this option to "
+"have old records for "
+"completed scans "
+"automatically removed."
+msgstr ""
+
+#: admin/scan.php:134
+msgid ""
+"This option specifies "
+"the maximum number of "
+"completed scans to store "
+"in the database."
+msgstr ""
+
+#: admin/scan.php:135
+msgid ""
+"Certain scan operations "
+"rely on there being a "
+"decent history, so try "
+"to avoid setting this "
+"too low. For most sites, "
+"a value of 10 is "
+"probably fine."
+msgstr ""
+
+#: admin/scan.php:136
+msgid ""
+"Pruning is applied each "
+"time a new scan "
+"completes. If the total "
+"number of completed "
+"scans exceeds your "
+"limit, the excess will "
+"be removed (oldest "
+"first)."
+msgstr ""
+
+#: admin/scan.php:139
+msgid ""
+"Regular system "
+"monitoring is important. "
+"If you aren't "
+"neurotically checking in "
+"and running your own "
+"scans, malicious content "
+"might be missed."
+msgstr ""
+
+#: admin/scan.php:141
+#: admin/scan.php:1052
+#, php-format
+msgid ""
+"Skytells-AV Pro comes with "
+"full %s support. If you "
+"have access to the "
+"command line, it is "
+"recommended you schedule "
+"scans through your "
+"system's %s daemon. You "
+"can view the CLI "
+"reference by type the "
+"following in the "
+"terminal from your "
+"site's route path: %s"
+msgstr ""
+
+#: admin/scan.php:146
+#: admin/scan.php:1057
+msgid ""
+"If you do not have "
+"command line access, you "
+"can alternatively "
+"schedule scans here! "
+"This will use "
+"WordPress's native "
+"scheduling, but because "
+"of that, can take a long "
+"time to complete."
+msgstr ""
+
+#: admin/scan.php:150
+#, php-format
+msgid ""
+"Enable this option to "
+"have a summary emailed "
+"to the site "
+"administrator (%s) each "
+"time a scheduled scan "
+"finishes. Warnings and "
+"file changes, if any, "
+"will be attached as CSV "
+"documents."
+msgstr ""
+
+#: admin/scan.php:155
+msgid ""
+"This is a core WordPress "
+"file. It is very unusual "
+"for core files to be "
+"modified from their "
+"original versions. Give "
+"this one extra attention."
+msgstr ""
+
+#: admin/scan.php:158
+msgid ""
+"This is file is part of "
+"a WordPress plugin and "
+"so it is unusual to see "
+"local deviations from "
+"the official source "
+"files."
+msgstr ""
+
+#: admin/scan.php:160
+#: admin/scan.php:168
+#, php-format
+msgid ""
+"That said, plugin and "
+"theme authors sometimes "
+"push code changes to "
+"WordPress without "
+"bumping the version "
+"number. This can throw "
+"older \"versions\" out "
+"of sync with the "
+"\"matching\" source "
+"hosted at %s."
+msgstr ""
+
+#: admin/scan.php:163
+#: admin/scan.php:171
+msgid ""
+"Still, you should "
+"definitely take a look "
+"and make sure nothing "
+"bad is behind it. :)"
+msgstr ""
+
+#: admin/scan.php:166
+msgid ""
+"This is file is part of "
+"a WordPress theme and so "
+"it is unusual to see "
+"local deviations from "
+"the official source "
+"files."
+msgstr ""
+
+#: admin/scan.php:175
+#, php-format
+msgid ""
+"On Unix systems, every "
+"file and directory has a "
+"set of %s that dictates "
+"who can do what with it. "
+"This is a very important "
+"and basic security "
+"feature, particularly "
+"for web servers. When "
+"permissions are too lax, "
+"hackers might be able to "
+"do bad things."
+msgstr ""
+
+#: admin/scan.php:176
+#: admin/scan.php:188
+msgid "permissions"
+msgstr ""
+
+#: admin/scan.php:179
+#, php-format
+msgid ""
+"\"Safe\" file "
+"permissions will vary "
+"from server-to-server, "
+"but will typically "
+"either be %s or %s (your "
+"files are set to %s). "
+"Skytells-AV will flag any "
+"files with looser "
+"permissions."
+msgstr ""
+
+#: admin/scan.php:187
+#, php-format
+msgid ""
+"On Unix systems, every "
+"file and directory is "
+"assigned a specific "
+"\"user\" and \"group\". "
+"When combined with its "
+"%s, this determines "
+"whether or not a "
+"particular user is "
+"allowed to read, write, "
+"or execute a given path."
+msgstr ""
+
+#: admin/scan.php:190
+msgid ""
+"Generally speaking, all "
+"files for a given web "
+"site should usually "
+"belong to the same "
+"\"user:group\", and that "
+"\"user:group\" should "
+"have little to no system "
+"access beyond what is "
+"relevant for displaying "
+"the web site. "
+"Inconsistencies in "
+"ownership can result in "
+"permission conflicts "
+"(like an inability to "
+"read or write files), or "
+"allow a hacker to gain "
+"wider system access than "
+"they should."
+msgstr ""
+
+#: admin/scan.php:192
+#, php-format
+msgid ""
+"Skytells-AV will flag any "
+"files with a user:group "
+"pair other than %s, the "
+"default for your server."
+msgstr ""
+
+#: admin/scan.php:197
+msgid ""
+"WordPress designates "
+"certain areas for user-"
+"supplied content to "
+"reside. Unexpected files "
+"appearing outside of "
+"these areas is unusual "
+"and deserves your "
+"attention."
+msgstr ""
+
+#: admin/scan.php:198
+msgid ""
+"In some cases, these "
+"might be auto-generated "
+"files from plugins or "
+"themes, but in others, "
+"they might be a hidden "
+"backdoor left behind by "
+"a hacker."
+msgstr ""
+
+#: admin/scan.php:201
+msgid ""
+"The following files are "
+"normally part of fresh "
+"installs, but for some "
+"reason are missing on "
+"your system. This might "
+"mean your installation "
+"was only partly "
+"successful, or maybe a "
+"theme or plugin is just "
+"doing something odd."
+msgstr ""
+
+#: admin/scan.php:204
+msgid ""
+"Generally speaking, "
+"nobody should be making "
+"changes to the main "
+"WordPress files, or any "
+"of its themes or "
+"plugins. Those files "
+"will change whenever "
+"updates are applied, of "
+"course, but otherwise "
+"they should be identical "
+"to the hosted versions."
+msgstr ""
+
+#: admin/scan.php:205
+msgid ""
+"These files have been "
+"flagged as *not* "
+"matching their clean "
+"counterparts. Please "
+"take a look at them, and "
+"proceed with caution."
+msgstr ""
+
+#: admin/scan.php:206
+msgid ""
+"Now, before you have a "
+"heart attack, note that "
+"there are two reasons "
+"this could happen that "
+"do not involve hacking: "
+"1) your server modified "
+"the files during the "
+"initial upload; 2) "
+"changes to the plugin or "
+"theme were published to "
+"WordPress, but the "
+"author forgot to bump "
+"the version."
+msgstr ""
+
+#: admin/scan.php:209
+msgid ""
+"These are obsolete files "
+"left over from older "
+"versions of WordPress. "
+"They are not being used "
+"any more and should be "
+"removed. At best, they "
+"are wasting disk space; "
+"at worst, they might "
+"contain exploitable code "
+"that could put your site "
+"at risk."
+msgstr ""
+
+#: admin/scan.php:212
+msgid ""
+"All too often, "
+"development files – "
+"logs, backups, database "
+"dumps, etc. – are "
+"accidentally copied over "
+"to production "
+"environments, leaving "
+"them visible to the "
+"public. You should "
+"review and remove any "
+"such files, otherwise "
+"the information they "
+"contain could help "
+"hackers better target "
+"attacks against your web "
+"site."
+msgstr ""
+
+#: admin/scan.php:214
+#, php-format
+msgid ""
+"And just in case you "
+"were thinking, \"Well, "
+"these aren't linked to "
+"from anywhere, I'm safe!"
+"\" remember that humans "
+"are not very creative. "
+"Robots scour the "
+"internet looking for "
+"file variations like %s, "
+"%s, etc. If you really "
+"need to keep these files "
+"on the server, just move "
+"them above the web root "
+"to prevent them from "
+"being loaded in a web "
+"browser."
+msgstr ""
+
+#: admin/scan.php:221
+#, php-format
+msgid ""
+"By default, WordPress "
+"determines what kind of "
+"content may or may not "
+"be uploaded by looking "
+"at the file name. For "
+"example, a file called "
+"%s will be allowed "
+"because %s is allowed."
+msgstr ""
+
+#: admin/scan.php:225
+msgid ""
+"Unfortunately this "
+"ignores the fact that "
+"file names are "
+"completely arbitrary. "
+"Hackers can bypass name-"
+"based safeguards by "
+"simply giving a file a "
+"different extension. "
+"Haha."
+msgstr ""
+
+#: admin/scan.php:226
+msgid ""
+"Certain methods exist "
+"for determining a file's "
+"*true* type by examining "
+"its structure. Skytells-AV "
+"performs these tests and "
+"will flag any files that "
+"are suspected to be "
+"something other than "
+"they appear."
+msgstr ""
+
+#: admin/scan.php:227
+msgid ""
+"This detection is not "
+"fool-proof, so please "
+"take a look at the "
+"flagged files and ignore "
+"any that are actually "
+"fine."
+msgstr ""
+
+#: admin/scan.php:231
+#, php-format
+msgid ""
+"Skytells-AV includes "
+"several checks for "
+"dangerous PHP functions "
+"like %s, which is used "
+"to execute arbitrary PHP "
+"commands passed as a "
+"data string. This is a "
+"*very* bad idea. Haha."
+msgstr ""
+
+#: admin/scan.php:234
+msgid ""
+"If you discover that a "
+"plugin or theme is "
+"intentionally using this "
+"function, it is highly "
+"recommended you "
+"uninstall it and find a "
+"safer alternative."
+msgstr ""
+
+#: admin/scan.php:237
+msgid ""
+"Hackers usually attempt "
+"to obfuscate their "
+"malicious code by "
+"messing with the "
+"encoding or breaking it "
+"up into different "
+"functions. Skytells-AV "
+"scans PHP files for "
+"long, unbroken strings "
+"of gibberish."
+msgstr ""
+
+#: admin/scan.php:238
+msgid ""
+"Being gibberish, it's "
+"impossible for the "
+"plugin to definitively "
+"say, \"This is bad.\", "
+"so please manually "
+"review the flagged files "
+"to see if there is "
+"anything you should be "
+"concerned about."
+msgstr ""
+
+#: admin/scan.php:242
+#, php-format
+msgid ""
+"%s is a helpful "
+"developer function that "
+"dumps a ton of "
+"environmental "
+"information to the "
+"screen. That is A-OK "
+"when a site is being "
+"developed, but "
+"references should be "
+"removed once it is live, "
+"otherwise hackers can "
+"benefit from all the "
+"details it provides."
+msgstr ""
+
+#: admin/scan.php:248
+#, php-format
+msgid ""
+"Skytells-AV scans PHP files "
+"for wrapper functions "
+"like %s, %s, %s, %s, and "
+"%s that allow PHP to "
+"directly run shell "
+"commands. As you might "
+"suspect, this can have "
+"disastrous security "
+"consequences. Haha."
+msgstr ""
+
+#: admin/scan.php:255
+msgid ""
+"Not all implementations "
+"of these functions are "
+"inherently evil, but if "
+"handled improperly, "
+"could be bad news. "
+"Please review any "
+"flagged items carefully."
+msgstr ""
+
+#: admin/scan.php:258
+msgid ""
+"The server was unable to "
+"scan these files. This "
+"usually means the file "
+"was too big for the poor "
+"server to handle, but "
+"could also indicate an "
+"inability for PHP to "
+"read it at all. It is "
+"worth manually double-"
+"checking these files to "
+"ensure their permissions "
+"are correctly set, etc."
+msgstr ""
+
+#: admin/scan.php:267
+#: admin/scan.php:406
+msgid "New File Scan"
+msgstr ""
+
+#: admin/scan.php:268
+msgid "Scan History"
+msgstr ""
+
+#: admin/scan.php:269
+msgid "Scan Results"
+msgstr ""
+
+#: admin/scan.php:270
+msgid "Scheduling"
+msgstr ""
+
+#: admin/scan.php:273
+#: lib/skytells/wp/skyav/scan.php:515
+msgid ""
+"Initializing the scan."
+msgstr ""
+
+#: admin/scan.php:274
+#: lib/skytells/wp/skyav/scan.php:516
+msgid ""
+"Collecting WordPress "
+"checksums."
+msgstr ""
+
+#: admin/scan.php:275
+#: lib/skytells/wp/skyav/scan.php:517
+msgid ""
+"Collecting plugin "
+"checksums."
+msgstr ""
+
+#: admin/scan.php:276
+#: lib/skytells/wp/skyav/scan.php:518
+msgid ""
+"Collecting theme "
+"checksums."
+msgstr ""
+
+#: admin/scan.php:277
+#: lib/skytells/wp/skyav/scan.php:519
+msgid ""
+"Searching the local "
+"filesystem."
+msgstr ""
+
+#: admin/scan.php:278
+#: lib/skytells/wp/skyav/scan.php:520
+msgid ""
+"Finishing up the pre-"
+"scan."
+msgstr ""
+
+#: admin/scan.php:279
+#: lib/skytells/wp/skyav/scan.php:521
+msgid "Scanning files."
+msgstr ""
+
+#: admin/scan.php:280
+msgid "Done!"
+msgstr ""
+
+#: admin/scan.php:343
+msgid ""
+"Skytells-AV file scan "
+"operations are pretty "
+"resource-intensive — "
+"there's a lot to check! "
+"— but they should not be "
+"taking anywhere near as "
+"much time to complete as "
+"they have been for you."
+msgstr ""
+
+#: admin/scan.php:346
+#, php-format
+msgid ""
+"If this notice persists, "
+"chances are your current "
+"web hosting is… not "
+"good. %s Haha."
+msgstr ""
+
+#: admin/scan.php:347
+msgid "Not good at all."
+msgstr ""
+
+#: admin/scan.php:350
+msgid ""
+"In the short term, you "
+"might be able to speed "
+"up scans by adding "
+"custom ignore rules, but "
+"you should really "
+"consider switching to a "
+"more competent hosting "
+"provider. Otherwise it "
+"is just money down the "
+"drain."
+msgstr ""
+
+#: admin/scan.php:365
+msgid ""
+"A file scan is underway. "
+"Please do not leave this "
+"page until it has "
+"finished."
+msgstr ""
+
+#: admin/scan.php:368
+msgid ""
+"Your settings have been "
+"saved!"
+msgstr ""
+
+#: admin/scan.php:371
+msgid ""
+"The cancel request has "
+"been saved. The scan "
+"should stop soon."
+msgstr ""
+
+#: admin/scan.php:387
+#: admin/scan.php:856
+#: lib/skytells/wp/skyav/admin.php:606
+#: lib/skytells/wp/skyav/scan.php:1515
+msgid "Scan"
+msgstr ""
+
+#: admin/scan.php:411
+msgid ""
+"Welcome to the file scan!"
+msgstr ""
+
+#: admin/scan.php:412
+msgid ""
+"This scan will let you "
+"know if any official "
+"WordPress files – the "
+"program itself, as well "
+"as any hosted plugins "
+"and themes – have been "
+"modified from their "
+"original versions. "
+"Content that can't be "
+"matched this way will "
+"instead be checked from "
+"scan-to-scan, letting "
+"you know what is new, "
+"missing, or changed "
+"since the last scan."
+msgstr ""
+
+#: admin/scan.php:413
+msgid ""
+"Skytells-AV also goes a bit "
+"deeper, finding "
+"potentially malicious "
+"code lurking in PHP "
+"files, locating "
+"developer files and "
+"backups (which shouldn't "
+"be stored on a public "
+"server), and other tasks "
+"of this sort."
+msgstr ""
+
+#: admin/scan.php:414
+msgid ""
+"Depending on the size of "
+"the site and power of "
+"the server, scans can "
+"take a little while to "
+"complete. Once you "
+"begin, do not navigate "
+"away from this page. The "
+"results will be "
+"displayed as soon as "
+"they are ready."
+msgstr ""
+
+#: admin/scan.php:421
+msgid "Start Scan!"
+msgstr ""
+
+#: admin/scan.php:425
+msgid "Scan Status"
+msgstr ""
+
+#: admin/scan.php:446
+msgid "Cancel Scan"
+msgstr ""
+
+#: admin/scan.php:456
+#: admin/scan.php:929
+msgid "Settings"
+msgstr ""
+
+#: admin/scan.php:463
+msgid "Skip Cache"
+msgstr ""
+
+#: admin/scan.php:472
+msgid "Skip Images"
+msgstr ""
+
+#: admin/scan.php:481
+msgid "Skip Audio/Video"
+msgstr ""
+
+#: admin/scan.php:488
+msgid "Max File Size"
+msgstr ""
+
+#: admin/scan.php:494
+msgid "MB"
+msgstr ""
+
+#: admin/scan.php:498
+msgid "Batch Size"
+msgstr ""
+
+#: admin/scan.php:504
+msgid "files"
+msgstr ""
+
+#: admin/scan.php:509
+msgid "Ignore Path(s)"
+msgstr ""
+
+#: admin/scan.php:518
+#, php-format
+msgid ""
+"Enter any custom "
+"exclusion rules above, "
+"one per line. Wildcards "
+"like %s are supported. "
+"Paths should be relative "
+"to the base directory, "
+"%s."
+msgstr ""
+
+#: admin/scan.php:526
+#: admin/scan.php:608
+msgid "Save Settings"
+msgstr ""
+
+#: admin/scan.php:548
+msgid "Completed Scans"
+msgstr ""
+
+#: admin/scan.php:553
+#: admin/scan.php:865
+#: lib/skytells/wp/skyav/cli/scan.php:327
+#: lib/skytells/wp/skyav/cli/scan.php:432
+msgid "Finished"
+msgstr ""
+
+#: admin/scan.php:555
+#: admin/scan.php:877
+#: lib/skytells/wp/skyav/cli/scan.php:330
+#: lib/skytells/wp/skyav/cli/scan.php:435
+#: lib/skytells/wp/skyav/scan.php:1449
+msgid "Files"
+msgstr ""
+
+#: admin/scan.php:556
+#: admin/scan.php:881
+#: lib/skytells/wp/skyav/cli/scan.php:331
+#: lib/skytells/wp/skyav/cli/scan.php:436
+#: lib/skytells/wp/skyav/scan.php:1450
+msgid "Scanned"
+msgstr ""
+
+#: admin/scan.php:557
+#: admin/scan.php:885
+#: lib/skytells/wp/skyav/cli/scan.php:332
+#: lib/skytells/wp/skyav/cli/scan.php:437
+#: lib/skytells/wp/skyav/scan.php:1451
+msgid "Skipped"
+msgstr ""
+
+#: admin/scan.php:558
+#: admin/scan.php:659
+#: lib/skytells/wp/skyav/cli/scan.php:333
+#: lib/skytells/wp/skyav/cli/scan.php:438
+#: lib/skytells/wp/skyav/scan.php:1452
+msgid "Warnings"
+msgstr ""
+
+#: admin/scan.php:573
+msgid "Details"
+msgstr ""
+
+#: admin/scan.php:586
+msgid "Data Retention"
+msgstr ""
+
+#: admin/scan.php:593
+msgid "Enable Pruning"
+msgstr ""
+
+#: admin/scan.php:600
+msgid "Maximum Scans"
+msgstr ""
+
+#: admin/scan.php:637
+msgid "All Good!"
+msgstr ""
+
+#: admin/scan.php:638
+msgid "Incomplete Scan"
+msgstr ""
+
+#: admin/scan.php:641
+msgid ""
+"This scan did not turn "
+"up anything unusual."
+msgstr ""
+
+#: admin/scan.php:644
+msgid ""
+"This scan did not finish "
+"running."
+msgstr ""
+
+#: admin/scan.php:652
+msgid "Filter"
+msgstr ""
+
+#: admin/scan.php:654
+msgid "All Warnings"
+msgstr ""
+
+#: admin/scan.php:666
+msgid ""
+"The following warnings "
+"were flagged during the "
+"scan. These items are "
+"not necessarily dire, "
+"but you should review "
+"each issue carefully."
+msgstr ""
+
+#: admin/scan.php:672
+#: admin/scan.php:804
+#: lib/skytells/wp/skyav/cli/scan.php:457
+#: lib/skytells/wp/skyav/scan.php:1459
+msgid "Warning"
+msgstr ""
+
+#: admin/scan.php:673
+#: admin/scan.php:732
+#: admin/scan.php:805
+#: lib/skytells/wp/skyav/cli/scan.php:459
+#: lib/skytells/wp/skyav/cli/scan.php:484
+#: lib/skytells/wp/skyav/scan.php:1461
+#: lib/skytells/wp/skyav/scan.php:1493
+msgid "File"
+msgstr ""
+
+#: admin/scan.php:674
+#: admin/scan.php:806
+msgid "Actions"
+msgstr ""
+
+#: admin/scan.php:721
+msgid "File Changes"
+msgstr ""
+
+#: admin/scan.php:725
+msgid ""
+"The following files "
+"differ from their "
+"official counterparts, "
+"or have changed since "
+"the last time a scan was "
+"performed."
+msgstr ""
+
+#: admin/scan.php:738
+#: lib/skytells/wp/skyav/cli/checksums.php:214
+#: lib/skytells/wp/skyav/cli/scan.php:487
+#: lib/skytells/wp/skyav/scan.php:1483
+msgid "Modified"
+msgstr ""
+
+#: admin/scan.php:748
+#: lib/skytells/wp/skyav/cli/scan.php:489
+#: lib/skytells/wp/skyav/scan.php:1485
+msgid "New"
+msgstr ""
+
+#: admin/scan.php:758
+#: lib/skytells/wp/skyav/cli/scan.php:488
+#: lib/skytells/wp/skyav/scan.php:1484
+msgid "Deleted"
+msgstr ""
+
+#: admin/scan.php:775
+msgid ""
+"Notices: Third-Party "
+"Content"
+msgstr ""
+
+#: admin/scan.php:782
+#, php-format
+msgid ""
+"The following files %s "
+"match clean copies from "
+"WordPress — all good "
+"there! — but the Look-"
+"See scan still raised "
+"some flags."
+msgstr ""
+
+#: admin/scan.php:783
+#: admin/scan.php:790
+msgid "do"
+msgstr ""
+
+#: admin/scan.php:789
+msgid ""
+"This doesn't necessarily "
+"mean that anything is "
+"wrong, but if you have "
+"an eye for code, you "
+"should double-check the "
+"authors didn't do "
+"something "
+"(unintentionally) "
+"dangerous."
+msgstr ""
+
+#: admin/scan.php:796
+#, php-format
+msgid ""
+"If a given plugin or "
+"theme has several "
+"entries in this list, "
+"you should check its %s. "
+"If both areas are "
+"raising flags, it "
+"probably is not very "
+"safe content to keep "
+"around."
+msgstr ""
+
+#: admin/scan.php:797
+msgid ""
+"vulnerability history"
+msgstr ""
+
+#: admin/scan.php:861
+msgid "Started"
+msgstr ""
+
+#: admin/scan.php:869
+#: lib/skytells/wp/skyav/cli/scan.php:328
+#: lib/skytells/wp/skyav/cli/scan.php:433
+msgid "Elapsed"
+msgstr ""
+
+#: admin/scan.php:894
+msgid "Legend"
+msgstr ""
+
+#: admin/scan.php:901
+msgid "View File"
+msgstr ""
+
+#: admin/scan.php:908
+msgid "Fix Issue"
+msgstr ""
+
+#: admin/scan.php:915
+msgid "Ignore File"
+msgstr ""
+
+#: admin/scan.php:922
+msgid "Delete File"
+msgstr ""
+
+#: admin/scan.php:934
+msgid "Skip"
+msgstr ""
+
+#: admin/scan.php:936
+msgid "Cache"
+msgstr ""
+
+#: admin/scan.php:937
+msgid "Audio/Video"
+msgstr ""
+
+#: admin/scan.php:938
+msgid "Images"
+msgstr ""
+
+#: admin/scan.php:943
+msgid "Max Size"
+msgstr ""
+
+#: admin/scan.php:952
+msgid "Sources"
+msgstr ""
+
+#: admin/scan.php:957
+#: lib/skytells/wp/skyav/cli.php:296
+msgid "WordPress"
+msgstr ""
+
+#: admin/scan.php:996
+msgid "The Schedule"
+msgstr ""
+
+#: admin/scan.php:1002
+msgid "Schedule Scan(s)"
+msgstr ""
+
+#: admin/scan.php:1019
+msgid "Time of Day"
+msgstr ""
+
+#: admin/scan.php:1027
+msgid "Email Results"
+msgstr ""
+
+#: admin/scan.php:1038
+msgid ""
+"The next scan is "
+"scheduled to begin"
+msgstr ""
+
+#: admin/scan.php:1049
+msgid "WP-CLI"
+msgstr ""
+
+#: admin/scan.php:1063
+msgid "CRON Settings"
+msgstr ""
+
+#: admin/scan.php:1066
+#, php-format
+msgid ""
+"WordPress' built-in "
+"scheduled task triggers "
+"are not sufficient for "
+"this kind of operation. "
+"For best results, you "
+"should let your server "
+"take over %s job "
+"execution for the site."
+msgstr ""
+
+#: admin/scan.php:1071
+#, php-format
+msgid ""
+"First, add the following "
+"to %s:"
+msgstr ""
+
+#: admin/scan.php:1076
+msgid ""
+"Disable WordPress's "
+"automatic CRON "
+"triggering."
+msgstr ""
+
+#: admin/scan.php:1080
+msgid ""
+"Then add a proper server "
+"CRON job like the "
+"following:"
+msgstr ""
+
+#: admin/scan.php:1083
+msgid ""
+"Runs once per minute; "
+"might as well!"
+msgstr ""
+
+#: admin/scan.php:1103
+msgid "Last Chance"
+msgstr ""
+
+#: admin/scan.php:1108
+#, php-format
+msgid ""
+"Are you absolutely sure "
+"you want to delete %s? "
+"This cannot be undone, "
+"and if this file is "
+"required — by a theme, "
+"plugin, blog post, etc. "
+"— things could break."
+msgstr ""
+
+#: admin/scan.php:1111
+#: admin/scan.php:1119
+msgid ""
+"Please make sure you "
+"have a full backup of "
+"your site files and "
+"database before making "
+"changes to the "
+"filesystem."
+msgstr ""
+
+#: admin/scan.php:1116
+#, php-format
+msgid ""
+"Are you sure you want "
+"Skytells-AV to try to "
+"automatically fix some "
+"of the issues affecting "
+"%s?"
+msgstr ""
+
+#: admin/scan.php:1124
+#, php-format
+msgid ""
+"Are you sure you would "
+"like to ignore %s from "
+"future scans? This will "
+"prevent you from "
+"learning of file changes "
+"or other warnings "
+"affecting this file."
+msgstr ""
+
+#: admin/scan.php:1127
+msgid ""
+"This action is, at "
+"least, reversible. If "
+"you change your mind, "
+"just locate and remove "
+"the ignore entry in the "
+"main scan settings."
+msgstr ""
+
+#: admin/scan.php:1131
+msgid "Cancel"
+msgstr ""
+
+#: admin/scan.php:1133
+msgid "Proceed"
+msgstr ""
+
+#: bootstrap-fallback.php:32
+msgid ""
+"PHP 5.6.0 or newer is "
+"required."
+msgstr ""
+
+#: bootstrap-fallback.php:36
+#: lib/skytells/wp/skyav/cli.php:29
+#: lib/skytells/wp/skyav/cli/checksums.php:30
+#: lib/skytells/wp/skyav/cli/scan.php:30
+msgid ""
+"This plugin cannot be "
+"used on Multi-Site."
+msgstr ""
+
+#: bootstrap-fallback.php:43
+#, php-format
+msgid ""
+"This plugin requires the "
+"PHP extension %s."
+msgstr ""
+
+#: bootstrap-fallback.php:50
+msgid ""
+"PHP must support basic "
+"hashing algorithms like "
+"SHA512."
+msgstr ""
+
+#: bootstrap-fallback.php:85
+#: lib/skytells/wp/skyav/admin.php:84
+#, php-format
+msgid ""
+"Your server does not "
+"meet the requirements "
+"for running %s. You or "
+"your system "
+"administrator should "
+"take a look at the "
+"following:"
+msgstr ""
+
+#: bootstrap-fallback.php:103
+#, php-format
+msgid ""
+"As a *stopgap*, you can "
+"%s the Skytells-AV Security "
+"Scanner plugin to the "
+"legacy *20.x* series. "
+"The legacy series *will "
+"not* receive updates or "
+"development support, so "
+"please ultimately plan "
+"to remove the plugin or "
+"upgrade your server "
+"environment."
+msgstr ""
+
+#: bootstrap-fallback.php:104
+msgid "downgrade"
+msgstr ""
+
+#: bootstrap-fallback.php:134
+msgid ""
+"The plugin has been "
+"automatically disabled."
+msgstr ""
+
+#: bootstrap-fallback.php:177
+msgid ""
+"This will downgrade to "
+"the legacy 20.2.0 "
+"release, which is "
+"compatible with PHP 5.4. "
+"Do not upgrade from the "
+"legacy version until "
+"your server meets the "
+"requirements of the "
+"current release."
+msgstr ""
+
+#: lib/skytells/wp/skyav/admin.php:53
+#: lib/skytells/wp/skyav/cli/scan.php:166
+#, php-format
+msgid ""
+"Several operations "
+"require the ability to "
+"write changes to the "
+"filesystem. This does "
+"not seem possible under "
+"the current "
+"configuration. See %s "
+"for possible workarounds."
+msgstr ""
+
+#: lib/skytells/wp/skyav/admin.php:59
+msgid ""
+"The Skytells-AV Security "
+"Scanner license is not "
+"valid for this domain or "
+"plugin; premium features "
+"have been disabled."
+msgstr ""
+
+#: lib/skytells/wp/skyav/admin.php:63
+msgid ""
+"The recommended PHP "
+"extension OpenSSL is "
+"missing; this will slow "
+"down some operations."
+msgstr ""
+
+#: lib/skytells/wp/skyav/admin.php:72
+msgid ""
+"The recommended PHP "
+"extension Intl is "
+"missing; you will not be "
+"able to handle "
+"internationalized or "
+"unicode domains."
+msgstr ""
+
+#: lib/skytells/wp/skyav/admin.php:128
+#, php-format
+msgid ""
+"%s %s has been released! "
+"Must-Use plugins must be "
+"updated manually, so "
+"click %s to download the "
+"new version."
+msgstr ""
+
+#: lib/skytells/wp/skyav/admin.php:461
+#: lib/skytells/wp/skyav/admin.php:462
+msgid "File Scan"
+msgstr ""
+
+#: lib/skytells/wp/skyav/admin.php:552
+#: lib/skytells/wp/skyav/admin.php:553
+msgid "Pro License"
+msgstr ""
+
+#: lib/skytells/wp/skyav/admin.php:610
+msgid "Enter License"
+msgstr ""
+
+#: lib/skytells/wp/skyav/ajax.php:105
+msgid ""
+"The form had expired. "
+"Please try again."
+msgstr ""
+
+#: lib/skytells/wp/skyav/ajax.php:112
+msgid ""
+"You must be logged in to "
+"complete this action."
+msgstr ""
+
+#: lib/skytells/wp/skyav/ajax.php:116
+msgid ""
+"You are not authorized "
+"to complete this action."
+msgstr ""
+
+#: lib/skytells/wp/skyav/ajax.php:122
+#: lib/skytells/wp/skyav/cli.php:33
+#: lib/skytells/wp/skyav/cli/checksums.php:34
+#: lib/skytells/wp/skyav/cli/scan.php:34
+msgid ""
+"A premium license is "
+"required."
+msgstr ""
+
+#: lib/skytells/wp/skyav/ajax.php:294
+#: lib/skytells/wp/skyav/ajax.php:339
+msgid ""
+"The file could not be "
+"deleted. Please use FTP "
+"or SSH instead."
+msgstr ""
+
+#: lib/skytells/wp/skyav/ajax.php:368
+#: lib/skytells/wp/skyav/ajax.php:397
+msgid ""
+"The file could not be "
+"automatically fixed."
+msgstr ""
+
+#: lib/skytells/wp/skyav/ajax.php:426
+msgid ""
+"An ignore rule could not "
+"be created "
+"automatically; please "
+"try adding it yourself."
+msgstr ""
+
+#: lib/skytells/wp/skyav/ajax.php:475
+#: lib/skytells/wp/skyav/ajax.php:500
+msgid ""
+"The requested file "
+"cannot be viewed. Please "
+"use FTP instead."
+msgstr ""
+
+#: lib/skytells/wp/skyav/ajax.php:535
+msgid ""
+"The license is not valid."
+msgstr ""
+
+#: lib/skytells/wp/skyav/ajax.php:565
+msgid ""
+"Someone else is "
+"currently running their "
+"own scan. Please try "
+"again in a couple "
+"minutes."
+msgstr ""
+
+#: lib/skytells/wp/skyav/ajax.php:582
+#: lib/skytells/wp/skyav/cli/scan.php:400
+#: lib/skytells/wp/skyav/scan.php:499
+msgid "Invalid scan."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:193
+msgid ""
+"No warnings were "
+"detected. Great job!"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:222
+msgid "URL"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:225
+msgid "Querying wpvulndb"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:246
+msgid ""
+"The following plugins "
+"and themes have "
+"vulnerability references."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:252
+msgid ""
+"No vulnerability "
+"references were found."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:273
+msgid "Author"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:275
+msgid "Copyright"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:276
+msgid "Developer"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:277
+msgid "Domains"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:278
+msgid "Download"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:280
+msgid "External"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:282
+msgid "Installed"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:283
+msgid "Latest"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:284
+msgid "License"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:285
+msgid "Must-Use"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:286
+msgid "N/A"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:288
+#: lib/skytells/wp/skyav/scan.php:1460
+#: lib/skytells/wp/skyav/scan.php:1492
+msgid "No"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:290
+msgid "Premium"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:291
+msgid "Purchased"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:292
+msgid "Single"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:293
+msgid "Timezone"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:295
+msgid "Upgrade"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli.php:297
+#: lib/skytells/wp/skyav/cli/scan.php:465
+#: lib/skytells/wp/skyav/cli/scan.php:496
+#: lib/skytells/wp/skyav/scan.php:1460
+#: lib/skytells/wp/skyav/scan.php:1492
+msgid "Yes"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/checksums.php:78
+msgid ""
+"Refreshed: WordPress "
+"checksums."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/checksums.php:83
+msgid ""
+"Core WordPress checkums "
+"could not be pulled."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/checksums.php:97
+#, php-format
+msgid ""
+"Refreshed: %d plugin "
+"checkums."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/checksums.php:104
+msgid ""
+"No plugin checksums "
+"could be pulled."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/checksums.php:118
+#, php-format
+msgid ""
+"Refreshed: %d theme "
+"checkums."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/checksums.php:125
+msgid ""
+"No theme checksums could "
+"be pulled."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/checksums.php:156
+msgid "Loading checksums."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/checksums.php:172
+msgid ""
+"No checksums could be "
+"loaded."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/checksums.php:181
+#, php-format
+msgid "Scanning %d files."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/checksums.php:204
+msgid "Missing"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/checksums.php:224
+#: lib/skytells/wp/skyav/cli/checksums.php:229
+msgid "Unreadable"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/checksums.php:237
+msgid ""
+"All checksums match."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/checksums.php:242
+msgid ""
+"Not all checksums match."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/scan.php:200
+msgid ""
+"A scan could not be "
+"started."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/scan.php:206
+#, php-format
+msgid "Starting Scan #%d."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/scan.php:215
+#, php-format
+msgid "Resuming Scan #%d."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/scan.php:225
+msgid "cache"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/scan.php:228
+msgid "audio/video"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/scan.php:231
+msgid "images"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/scan.php:234
+msgid "other"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/scan.php:238
+msgid "Skipping:"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/scan.php:246
+#, php-format
+msgid ""
+"Max File Size: %.1f MB"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/scan.php:274
+#, php-format
+msgid "Finished Scan #%d."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/scan.php:321
+msgid ""
+"No scans have been "
+"completed."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/scan.php:326
+msgid "Scan ID"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/scan.php:355
+msgid "Found scans"
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/scan.php:405
+msgid ""
+"This scan has not yet "
+"completed."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/scan.php:418
+msgid ""
+"You have disabled all "
+"output. Haha."
+msgstr ""
+
+#: lib/skytells/wp/skyav/cli/scan.php:458
+#: lib/skytells/wp/skyav/cli/scan.php:483
+#: lib/skytells/wp/skyav/scan.php:1460
+#: lib/skytells/wp/skyav/scan.php:1492
+msgid "Core"
+msgstr ""
+
+#: lib/skytells/wp/skyav/core.php:165
+msgid ""
+"The WordPress.org API "
+"could not be reached."
+msgstr ""
+
+#: lib/skytells/wp/skyav/core.php:209
+msgid ""
+"The WordPress Core "
+"checksums could not be "
+"saved."
+msgstr ""
+
+#: lib/skytells/wp/skyav/license.php:558
+#: lib/skytells/wp/skyav/scan.php:227
+#, php-format
+msgid ""
+"The required method \"%s"
+"\" does not exist for %s"
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:319
+msgid "File Permissions"
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:320
+msgid "File Owner"
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:321
+msgid "Extra Core File"
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:322
+msgid "Missing Core File"
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:323
+msgid "Modified Core File"
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:324
+msgid ""
+"Deprecated Core File"
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:325
+msgid ""
+"Developer/System File"
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:326
+msgid "File Type"
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:327
+msgid "eval()"
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:328
+msgid "Unusual Data"
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:329
+msgid "phpinfo()"
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:330
+msgid "Unix System Call"
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:331
+msgid "Timeout Error"
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:522
+msgid ""
+"The scan has completed."
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:523
+msgid ""
+"The scan encountered an "
+"error."
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:524
+msgid "The scan timed out."
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:525
+msgid ""
+"The scan has been "
+"aborted."
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:1438
+#, php-format
+msgid ""
+"The %s file scan for %s "
+"completed in %s."
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:1445
+msgid ""
+"Unfortunately this scan "
+"was not successful due "
+"to an error."
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:1465
+msgid "warnings"
+msgstr ""
+
+#: lib/skytells/wp/skyav/scan.php:1498
+msgid "file-changes"
+msgstr ""
